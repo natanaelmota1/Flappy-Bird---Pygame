@@ -6,7 +6,6 @@
 pygame é uma biblioteca python de livre utilização (Open Source) que tem como função a criação de aplicativos multimidia, jogos sendo um exemplo disso; pygame é altamente portável e roda em quase todas as plataformas e sistemas operacionais.
 
 - Como instalar e configurar o pygame?  
-
   A melhor maneira de se instalar o pygame é pela ferramenta pip (Ferramenta que o python usa para instalar pacotes). 
 
   Para isso, usamos o comando abaixo:  
