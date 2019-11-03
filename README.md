@@ -1,4 +1,10 @@
-# Flappy-Bird---Pygame
+# Flappy Bird [pygame]
+
+## Seminário
+
+- O que é pygame?  
+pygame é uma biblioteca python de livre utilização (Open Source) que tem como função a criação de aplicativos multimidia, jogos sendo um exemplo disso; pygame é altamente portável e roda em quase todas as plataformas e sistemas operacionais.
+
 
 ## Contributors
 
