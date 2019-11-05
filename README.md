@@ -2,7 +2,7 @@
 
 Um clone do famoso jogo Flappy Bird utilizando a biblioteca python PyGame.
 
-## Seminário
+## Q&A
 
 - O que é pygame?  
 pygame é uma biblioteca python de livre utilização (Open Source) que tem como função a criação de aplicativos multimidia, jogos sendo um exemplo disso; pygame é altamente portável e roda em quase todas as plataformas e sistemas operacionais.
@@ -38,3 +38,8 @@ pygame é uma biblioteca python de livre utilização (Open Source) que tem como
     https://www.spriters-resource.com/mobile/flappybird/sheet/59894/
 
     https://github.com/sourabhv/FlapPyBird/tree/master/assets
+
+## License
+
+  [MIT License](https://github.com/natanaelmota1/Flappy-Bird---Pygame/blob/master/LICENSE.txt)
+
