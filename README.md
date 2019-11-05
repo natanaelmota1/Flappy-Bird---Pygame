@@ -25,7 +25,7 @@ pygame é uma biblioteca python de livre utilização (Open Source) que tem como
 
 ## Assets
 
--Sprites and songs:
+- Sprites and songs:
 
 https://www.spriters-resource.com/mobile/flappybird/sheet/59894/
 
