@@ -25,6 +25,27 @@ background_day = pygame.image.load("sprites/background-day.png").convert()
 background_night = pygame.image.load("sprites/background-night.png").convert()
 sair = True
 
+tupla_birds = (
+    # passarinho vermelho
+    (
+        'sprites/redbird-upflap.png',
+        'sprites/redbird-midflap.png',
+        'sprites/redbird-downflap.png',
+    ),
+    # passarinho azul
+    (
+        'sprites/bluebird-upflap.png',
+        'sprites/bluebird-midflap.png',
+        'sprites/bluebird-downflap.png',
+    ),
+    # passarinho amarelo
+    (
+        'sprites/yellowbird-upflap.png',
+        'sprites/yellowbird-midflap.png',
+        'sprites/yellowbird-downflap.png',
+    ),
+)
+
 while(sair):
     
     # escolha do background
