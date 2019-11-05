@@ -5,9 +5,11 @@ Um clone do famoso jogo Flappy Bird utilizando a biblioteca python PyGame.
 ## Q&A
 
 - O que é pygame?  
-pygame é uma biblioteca python de livre utilização (Open Source) que tem como função a criação de aplicativos multimidia, jogos sendo um exemplo disso; pygame é altamente portável e roda em quase todas as plataformas e sistemas operacionais.
+
+  pygame é uma biblioteca python de livre utilização (Open Source) que tem como função a criação de aplicativos multimidia, jogos sendo um exemplo disso; pygame é altamente portável e roda em quase todas as plataformas e sistemas operacionais.
 
 - Como instalar e configurar o pygame?  
+
   A melhor maneira de se instalar o pygame é pela ferramenta pip (Ferramenta que o python usa para instalar pacotes). 
 
   Para isso, usamos o comando abaixo:
@@ -20,6 +22,7 @@ pygame é uma biblioteca python de livre utilização (Open Source) que tem como
   python3 -m pygame.examples.aliens
   ```
 - Como fazer animações com sprites usando o pygame?  
+
   Ao adicionar um jogador como mostrado abaixo, é simples adicionar os sprites após essa parte do código associando a nomenclatura.
   ```python
   # Definir um jogador fazendo uma classe com um def
