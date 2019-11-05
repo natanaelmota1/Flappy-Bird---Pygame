@@ -8,8 +8,11 @@ pygame é uma biblioteca python de livre utilização (Open Source) que tem como
 - Como instalar e configurar o pygame?  
   A melhor maneira de se instalar o pygame é pela ferramenta pip (Ferramenta que o python usa para instalar pacotes). 
 
-  Para isso, usamos o comando abaixo:  
-  **python3 -m pip install -U pygame --user**  
+  Para isso, usamos o comando abaixo:
+```
+bash
+python3 -m pip install -U pygame --user
+```
 
   Para testar se foi instalado, rodamos o seguinte exemplo:  
   **python3 -m pygame.examples.aliens**  
