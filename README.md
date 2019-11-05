@@ -22,7 +22,7 @@ pygame é uma biblioteca python de livre utilização (Open Source) que tem como
 - Como fazer animações com sprites usando o pygame?  
   Ao adicionar um jogador como mostrado abaixo, é simples adicionar os sprites após essa parte do código associando a nomenclatura.
   ```python
-  # Definir um jogador fazendo uma classe com **while**
+  # Definir um jogador fazendo uma classe com um def
   # O jogador será mostrado na superfície escrita na tela
   class Player(pygame.sprite.Sprite):
       def __init__(self):
