@@ -14,7 +14,9 @@ pygame é uma biblioteca python de livre utilização (Open Source) que tem como
   ```
 
   Para testar se foi instalado, rodamos o seguinte exemplo:  
-  ```python3 -m pygame.examples.aliens```
+  ```
+  python3 -m pygame.examples.aliens
+  ```
 
 
 ## Contributors
