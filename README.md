@@ -1,4 +1,6 @@
-# Flappy Bird [pygame]
+# Flappy Bird
+
+Um clone do famoso jogo Flappy Bird utilizando a biblioteca python PyGame.
 
 ## Seminário
 
@@ -17,6 +19,8 @@ pygame é uma biblioteca python de livre utilização (Open Source) que tem como
   ```
   python3 -m pygame.examples.aliens
   ```
+- Como fazer animações com sprites usando o pygame?  
+  aaaaaa
 
 
 ## Contributors
