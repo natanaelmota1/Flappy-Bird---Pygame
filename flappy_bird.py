@@ -2,6 +2,7 @@ import pygame
 import random
 import os
 from datetime import datetime
+from sprites import *
 
 # teste de execução do jogo
 try:
@@ -25,37 +26,18 @@ background_day = pygame.image.load("sprites/background-day.png").convert()
 background_night = pygame.image.load("sprites/background-night.png").convert()
 exit = True
 count_updates = 0
+sub_floor = 0
 
-# parâmetros pássaro
-bird_x = 288/2
-bird_y = 512/2
-bird_sprite = 1
-tuple_birds = (
-    # passarinho vermelho
-    (
-        'sprites/redbird-upflap.png',
-        'sprites/redbird-midflap.png',
-        'sprites/redbird-downflap.png',
-    ),
-    # passarinho azul
-    (
-        'sprites/bluebird-upflap.png',
-        'sprites/bluebird-midflap.png',
-        'sprites/bluebird-downflap.png',
-    ),
-    # passarinho amarelo
-    (
-        'sprites/yellowbird-upflap.png',
-        'sprites/yellowbird-midflap.png',
-        'sprites/yellowbird-downflap.png',
-    ),
-)
+# parâmetros do pássaro
+bird_x = 288/4
+bird_y = 200
+
 # selecionando pássarinho aleatório
 rand_bird = random.randint(0,2)
 bird = (
     pygame.image.load(tuple_birds[rand_bird][0]).convert_alpha(),
     pygame.image.load(tuple_birds[rand_bird][1]).convert_alpha(),
-    pygame.image.load(tuple_birds[rand_bird][2]).convert_alpha(),
+    pygame.image.load(tuple_birds[rand_bird][2]).convert_alpha()
 )
 
 while(exit):
@@ -65,15 +47,22 @@ while(exit):
         screen.blit(background_day, (0,0))
     else:
         screen.blit(background_night, (0,0))
+    
+    #gerando 
+    if sub_floor >= 144:
+        sub_floor = 0
+    else:
+        sub_floor += 1
+    base_generator(screen, sub_floor)
 
-    # animação passarinho
+    # animação do passarinho
     count_updates += 1
     if (count_updates % 2 == 0):
-        bird_sprite = 1
-    elif (count_updates % 3 == 0):
-        bird_sprite = 2
-    else:
         bird_sprite = 0
+    elif (count_updates % 3 == 0):
+        bird_sprite = 1
+    else:
+        bird_sprite = 2
     bird_y += 1.5
     bird_player = screen.blit(bird[bird_sprite], (bird_x, bird_y))
     for event in pygame.event.get():
